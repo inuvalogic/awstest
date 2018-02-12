@@ -1,1 +1,1 @@
-AWS Config Test for deploying NodeJS apps
+AWS Elastic Beanstalk Config Test for deploying NodeJS apps in Ubuntu container using Docker
