@@ -1,0 +1,19 @@
+branch-defaults:
+  master:
+    environment: myapp-env
+environment-defaults:
+  mltrain-env:
+    branch: master
+    repository: myapprepo
+global:
+  application_name: myapp
+  default_ec2_keyname: aws-eb
+  default_platform: arn:aws:elasticbeanstalk:ap-southeast-1::platform/Docker running
+    on 64bit Amazon Linux/2.6.0
+  default_region: ap-southeast-1
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  sc: git
+  workspace_type: Application
